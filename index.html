@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Неофициальный концепт редизайна сайта производственного объединения Полёт в Омске.">
+  <meta name="theme-color" content="#07111d">
+  <title>ПО «Полёт» — концепт редизайна</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="concept-bar">Неофициальный концепт редизайна · не является сайтом предприятия</div>
+
+  <header class="header">
+    <a class="brand" href="#top" aria-label="Полёт — на главную">
+      <svg viewBox="0 0 54 54" aria-hidden="true"><circle cx="27" cy="27" r="8"/><ellipse cx="27" cy="27" rx="24" ry="10" transform="rotate(-24 27 27)"/><path d="M38 12l7-2-2 7"/></svg>
+      <span><b>ПОЛЁТ</b><small>производственное объединение</small></span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#about">О предприятии</a>
+      <a href="#directions">Направления</a>
+      <a href="#history">История</a>
+      <a href="#career">Карьера</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <a class="header__career" href="#career">Вакансии <span>↗</span></a>
+    <button class="menu" type="button" aria-label="Открыть меню" aria-expanded="false"><span></span><span></span></button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <img class="hero__image" src="hero-v2.webp" alt="Художественная визуализация аэрокосмического производства с эмблемами Роскосмоса и Центра Хруничева">
+      <div class="hero__grid" aria-hidden="true"></div>
+      <div class="hero__content">
+        <p class="overline"><span></span> Омск · аэрокосмическое производство</p>
+        <h1>Создаём<br>технику,<br><em>которая летит</em></h1>
+        <p class="hero__lead">Более восьмидесяти лет инженерной школы, точного производства и работы людей, чьи проекты становятся частью истории страны.</p>
+        <div class="hero__actions">
+          <a class="button button--light" href="#about">Узнать о предприятии <span>↓</span></a>
+          <a class="text-link" href="#career">Стать частью команды <span>↗</span></a>
+        </div>
+      </div>
+      <div class="hero__facts">
+        <div><strong>80+</strong><span>лет в промышленности</span></div>
+        <div><strong>4</strong><span>исторических направления</span></div>
+        <div><strong>2007</strong><span>в составе Центра Хруничева</span></div>
+      </div>
+      <p class="hero__note">Визуализация создана для концепта и не изображает реальный цех предприятия</p>
+    </section>
+
+    <section class="intro section" id="about">
+      <div class="section-mark"><span>01</span><b>О предприятии</b></div>
+      <div class="intro__main reveal">
+        <p class="eyebrow">Инженерная школа Омска</p>
+        <h2>От авиации —<br>до космоса</h2>
+      </div>
+      <div class="intro__copy reveal">
+        <p class="large-copy">Производственное объединение «Полёт» — одно из крупнейших промышленных предприятий России, специализирующееся на авиационной и ракетно-космической технике.</p>
+        <p>По открытым материалам предприятия, здесь выпускались ракеты-носители, космические аппараты, сверхмощные двигатели РД‑170 и самолёты. Сегодня предприятие продолжает техническое перевооружение и развитие высокотехнологичных производств.</p>
+        <a class="arrow-link" href="http://www.polyot.su/main.php?id=77" target="_blank" rel="noopener">Источник: официальный сайт <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="directions" id="directions">
+      <div class="directions__heading section">
+        <div class="section-mark section-mark--dark"><span>02</span><b>Компетенции</b></div>
+        <div><p class="eyebrow">Создано поколениями</p><h2>Масштаб,<br>точность,<br>ответственность</h2></div>
+      </div>
+      <div class="direction-list">
+        <article class="direction reveal"><span class="direction__number">01</span><div class="direction__icon">↗</div><h3>Ракетно-космическая техника</h3><p>Промышленный опыт, связанный с производством ракет-носителей и космических аппаратов.</p><b>Космос</b></article>
+        <article class="direction reveal"><span class="direction__number">02</span><div class="direction__icon">⌁</div><h3>Авиационное производство</h3><p>Историческая компетенция предприятия — выпуск самолётов и агрегатов авиационной техники.</p><b>Авиация</b></article>
+        <article class="direction reveal"><span class="direction__number">03</span><div class="direction__icon">◎</div><h3>Двигателестроение</h3><p>Страница истории предприятия отмечает опыт выпуска сверхмощных двигателей РД‑170.</p><b>Энергия</b></article>
+        <article class="direction reveal"><span class="direction__number">04</span><div class="direction__icon">◇</div><h3>Точное производство</h3><p>Высокотехнологичные процессы, техническое перевооружение и квалифицированные специалисты.</p><b>Технологии</b></article>
+      </div>
+    </section>
+
+    <section class="history section" id="history">
+      <div class="section-mark"><span>03</span><b>История</b></div>
+      <div class="history__heading reveal"><p class="eyebrow">Связь времён</p><h2>Больше восьмидесяти лет<br>движения вперёд</h2></div>
+      <div class="timeline">
+        <article class="reveal"><b>1940-е</b><span></span><h3>Начало пути</h3><p>Формирование промышленной и инженерной школы предприятия в Омске.</p></article>
+        <article class="reveal"><b>XX век</b><span></span><h3>Уникальная специализация</h3><p>Опыт выпуска самолётов, космических аппаратов, ракет-носителей и двигателей.</p></article>
+        <article class="reveal"><b>2007</b><span></span><h3>Новый этап</h3><p>Вхождение производственного объединения «Полёт» в состав Центра Хруничева.</p></article>
+        <article class="reveal"><b>Сегодня</b><span></span><h3>Обновление</h3><p>Техническое перевооружение, высокотехнологичные производства и новые рабочие места.</p></article>
+      </div>
+      <div class="awards reveal"><p>Правительственные награды</p><div><span>Орден Ленина</span><span>Орден Трудового Красного Знамени</span><span>Орден Октябрьской Революции</span></div></div>
+    </section>
+
+    <section class="career" id="career">
+      <div class="career__copy reveal">
+        <p class="eyebrow">Работа, которой гордятся</p>
+        <h2>Твой труд<br>имеет значение</h2>
+        <p>Предприятию нужны инженеры и квалифицированные рабочие. На официальной странице опубликованы вакансии инженерного и производственного профиля.</p>
+        <a class="button button--red" href="http://www.polyot.su/main.php?id=362" target="_blank" rel="noopener">Смотреть вакансии <span>↗</span></a>
+      </div>
+      <div class="career__vacancies">
+        <p>Примеры открытых направлений</p>
+        <ul>
+          <li><span>01</span><b>Инженер-технолог</b><small>3–1 категория</small></li>
+          <li><span>02</span><b>Инженер по испытаниям</b><small>3–1 категория</small></li>
+          <li><span>03</span><b>Оператор станков с ПУ</b><small>4–6 разряд</small></li>
+          <li><span>04</span><b>Слесарь-сборщик летательных аппаратов</b><small>4–6 разряд</small></li>
+        </ul>
+        <div class="career__benefits"><span>Высокий уровень заработной платы</span><span>Полный социальный пакет</span></div>
+      </div>
+    </section>
+
+    <section class="news section" id="news">
+      <div class="section-mark"><span>04</span><b>Новости</b></div>
+      <div class="news__heading"><div><p class="eyebrow">В центре событий</p><h2>Последние новости</h2></div><a class="arrow-link" href="http://www.polyot.su/main.php?id=1" target="_blank" rel="noopener">Все новости <span>↗</span></a></div>
+      <div class="news-grid">
+        <a class="news-card news-card--main reveal" href="http://www.polyot.su/main.php?id=1&amp;nid=1391" target="_blank" rel="noopener"><span>05.03.2026</span><div class="orbit" aria-hidden="true"><i></i></div><h3>«Орбита вдохновения»: о женщинах, выбирающих космос</h3><b>Подробнее ↗</b></a>
+        <a class="news-card reveal" href="http://www.polyot.su/main.php?id=1&amp;nid=1392" target="_blank" rel="noopener"><span>12.02.2026</span><h3>Ракета «Протон‑М» успешно стартовала с космическим аппаратом «Электро‑Л» №5</h3><b>Подробнее ↗</b></a>
+        <a class="news-card reveal" href="http://www.polyot.su/main.php?id=1&amp;nid=1389" target="_blank" rel="noopener"><span>04.02.2026</span><h3>Стартовал очередной отбор в отряд космонавтов Роскосмоса</h3><b>Подробнее ↗</b></a>
+      </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+      <div class="contacts__copy"><p class="eyebrow">Омск · Россия</p><h2>Здесь<br>начинается<br><em>полёт</em></h2></div>
+      <div class="contacts__details">
+        <div><span>Предприятие</span><b>644021, г. Омск,<br>ул. Б. Хмельницкого, 226</b></div>
+        <div><span>Отдел кадров</span><b>г. Омск,<br>ул. Б. Хмельницкого, 287</b></div>
+        <div><span>Телефоны отдела кадров</span><a href="tel:+73812397528">+7 (3812) 39-75-28</a><a href="tel:+73812397101">+7 (3812) 39-71-01</a></div>
+        <div><span>Электронная почта</span><a href="mailto:info.polet@khrunichev.ru">info.polet@khrunichev.ru</a></div>
+        <a class="button button--light" href="https://yandex.ru/maps/?text=%D0%9E%D0%BC%D1%81%D0%BA%2C%20%D1%83%D0%BB.%20%D0%91.%20%D0%A5%D0%BC%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D1%86%D0%BA%D0%BE%D0%B3%D0%BE%2C%20226" target="_blank" rel="noopener">Построить маршрут <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand" href="#top"><svg viewBox="0 0 54 54" aria-hidden="true"><circle cx="27" cy="27" r="8"/><ellipse cx="27" cy="27" rx="24" ry="10" transform="rotate(-24 27 27)"/><path d="M38 12l7-2-2 7"/></svg><span><b>ПОЛЁТ</b><small>концепт редизайна</small></span></a>
+    <p>Учебный неофициальный концепт. Создан по открытым материалам официального сайта ПО «Полёт». Не является предложением или ресурсом предприятия.</p>
+    <a href="http://www.polyot.su/" target="_blank" rel="noopener">Официальный сайт ↗</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
