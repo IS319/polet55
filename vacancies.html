@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Вакансии ПО «Полёт» — неофициальный дизайн-концепт на основе открытого перечня официального сайта.">
+  <meta name="theme-color" content="#06111e">
+  <title>Вакансии — ПО «Полёт» · концепт</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="inner-page">
+  <div class="concept-bar"><span>Неофициальный концепт редизайна</span><span>Сведения сверены с открытой страницей предприятия</span></div>
+  <header class="site-header site-header--solid" data-header>
+    <a class="brand" href="index.html" aria-label="ПО Полёт — на главную"><img src="assets/polet-emblem.svg" alt="" width="50" height="50"><span class="brand__type"><b>ПО «ПОЛЁТ»</b><small>филиал Центра Хруничева · Омск</small></span></a>
+    <nav class="nav" id="main-navigation" data-nav><a href="index.html#about">Предприятие</a><a href="index.html#competencies">Компетенции</a><a href="index.html#heritage">Наследие</a><a href="index.html#news">Новости</a><a href="index.html#contacts">Контакты</a></nav>
+    <a class="header-action is-active" href="vacancies.html">Вакансии <span>18</span></a>
+    <button class="menu-button" type="button" aria-controls="main-navigation" aria-expanded="false" aria-label="Открыть меню" data-menu><span></span><span></span></button>
+  </header>
+
+  <main>
+    <section class="vacancy-hero">
+      <img src="assets/images/precision-production.webp" alt="Концептуальная визуализация современного производства">
+      <div class="vacancy-hero__overlay"></div>
+      <div class="container vacancy-hero__content reveal">
+        <a class="back-link" href="index.html">← На главную</a>
+        <p class="kicker kicker--light">Карьера на предприятии</p>
+        <h1>Работа,<br>которая имеет значение</h1>
+        <p>Инженерные и рабочие специальности для людей, которые ценят точность, ответственность и реальный результат своего труда.</p>
+      </div>
+      <div class="container vacancy-hero__stats">
+        <article><strong>18</strong><span>позиций в открытом<br>перечне предприятия</span></article>
+        <article><strong>4–6</strong><span>разряд для большинства<br>рабочих специальностей</span></article>
+        <article><strong>Омск</strong><span>ул. Б. Хмельницкого, 287<br>отдел кадров, каб. 14А</span></article>
+      </div>
+    </section>
+
+    <section class="section benefits-section">
+      <div class="container">
+        <div class="section-top"><span>01</span><p>Условия</p><i></i></div>
+        <div class="section-heading section-heading--split reveal"><div><p class="kicker">Стабильность и развитие</p><h2>Вместе создаём<br>сложную технику</h2></div><p class="lead">На официальной странице прямо указаны высокий уровень заработной платы и полный социальный пакет. Подробные условия по каждой позиции уточняются в отделе кадров.</p></div>
+        <div class="benefit-grid">
+          <article class="benefit-card reveal"><span>01</span><div>₽</div><h3>Достойная оплата</h3><p>Высокий уровень заработной платы — формулировка официального раздела вакансий.</p></article>
+          <article class="benefit-card reveal"><span>02</span><div>+</div><h3>Социальный пакет</h3><p>Полный социальный пакет для сотрудников предприятия.</p></article>
+          <article class="benefit-card reveal"><span>03</span><div>◎</div><h3>Технологичная среда</h3><p>Работа в авиационном и ракетно-космическом производственном контуре.</p></article>
+          <article class="benefit-card reveal"><span>04</span><div>↗</div><h3>Профессиональный рост</h3><p>Инженерные категории и рабочие разряды отражены в опубликованном перечне.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="vacancy-catalog section" id="vacancy-list">
+      <div class="container">
+        <div class="section-top section-top--dark"><span>02</span><p>Открытые позиции</p><i></i></div>
+        <div class="catalog-head reveal"><div><p class="kicker kicker--light">Найдите своё направление</p><h2>Вакансии</h2><p>Перечень перенесён с официальной страницы предприятия. Актуальность и детали необходимо уточнять у отдела кадров.</p></div><label class="search-field"><span>Поиск по профессии</span><input type="search" placeholder="Например, токарь" data-vacancy-search><i>⌕</i></label></div>
+        <div class="filter-row" role="group" aria-label="Фильтр вакансий"><button class="filter-button is-active" type="button" data-filter="all">Все <span>18</span></button><button class="filter-button" type="button" data-filter="engineering">Инженерные <span>3</span></button><button class="filter-button" type="button" data-filter="production">Производственные <span>15</span></button></div>
+        <div class="vacancy-grid" data-vacancy-grid>
+          <article class="vacancy-card reveal" data-type="engineering"><span class="vacancy-card__number">01</span><div class="vacancy-card__meta"><span>Инженерное направление</span><b>3–1 категория</b></div><h3>Инженер-технолог</h3><p>Требования и конкретный участок работы уточняются при обращении.</p><a href="tel:+73812397528">Уточнить по вакансии ↗</a></article>
+          <article class="vacancy-card reveal" data-type="engineering"><span class="vacancy-card__number">02</span><div class="vacancy-card__meta"><span>Инженерное направление</span><b>3–1 категория</b></div><h3>Инженер по испытаниям</h3><p>Требования и конкретный участок работы уточняются при обращении.</p><a href="tel:+73812397528">Уточнить по вакансии ↗</a></article>
+          <article class="vacancy-card reveal" data-type="engineering"><span class="vacancy-card__number">03</span><div class="vacancy-card__meta"><span>Руководство производством</span><b>Категория уточняется</b></div><h3>Мастер</h3><p>Условия, требования и производственный участок уточняются в отделе кадров.</p><a href="tel:+73812397528">Уточнить по вакансии ↗</a></article>
+          <article class="vacancy-card reveal" data-type="production"><span class="vacancy-card__number">04</span><div class="vacancy-card__meta"><span>Механообработка</span><b>4–6 разряд</b></div><h3>Токарь</h3><p>Квалификационные требования уточняются при обращении.</p><a href="tel:+73812397528">Уточнить по вакансии ↗</a></article>
+          <article class="vacancy-card reveal" data-type="production"><span class="vacancy-card__number">05</span><div class="vacancy-card__meta"><span>Механообработка</span><b>4–6 разряд</b></div><h3>Токарь-расточник</h3><p>Квалификационные требования уточняются при обращении.</p><a href="tel:+73812397528">Уточнить по вакансии ↗</a></article>
+          <article class="vacancy-card reveal" data-type="production"><span class="vacancy-card__number">06</span><div class="vacancy-card__meta"><span>Механообработка</span><b>4–6 разряд</b></div><h3>Токарь-карусельщик</h3><p>Квалификационные требования уточняются при обращении.</p><a href="tel:+73812397528">Уточнить по вакансии ↗</a></article>
+          <article class="vacancy-card reveal" data-type="production"><span class="vacancy-card__number">07</span><div class="vacancy-card__meta"><span>Механообработка</span><b>4–6 разряд</b></div><h3>Токарь-револьверщик</h3><p>Квалификационные требования уточняются при обращении.</p><a href="tel:+73812397528">Уточнить по вакансии ↗</a></article>
+          <article class="vacancy-card reveal" data-type="production"><span class="vacancy-card__number">08</span><div class="vacancy-card__meta"><span>Механообработка</span><b>4–6 разряд</b></div><h3>Фрезеровщик</h3><p>Квалификационные требования уточняются при обращении.</p><a href="tel:+73812397528">Уточнить по вакансии ↗</a></article>
+          <article class="vacancy-card reveal" data-type="production"><span class="vacancy-card__number">09</span><div class="vacancy-card__meta"><span>Механообработка</span><b>4–6 разряд</b></div><h3>Шлифовщик</h3><p>Квалификационные требования уточняются при обращении.</p><a href="tel:+73812397528">Уточнить по вакансии ↗</a></article>
+          <article class="vacancy-card reveal" data-type="production"><span class="vacancy-card__number">10</span><div class="vacancy-card__meta"><span>Станки с ПУ</span><b>4–6 разряд</b></div><h3>Оператор станков с ПУ</h3><p>Квалификационные требования уточняются при обращении.</p><a href="tel:+73812397528">Уточнить по вакансии ↗</a></article>
+          <article class="vacancy-card reveal" data-type="production"><span class="vacancy-card__number">11</span><div class="vacancy-card__meta"><span>Сборочное производство</span><b>4–6 разряд</b></div><h3>Слесарь механосборочных работ</h3><p>Квалификационные требования уточняются при обращении.</p><a href="tel:+73812397528">Уточнить по вакансии ↗</a></article>
+          <article class="vacancy-card reveal" data-type="production"><span class="vacancy-card__number">12</span><div class="vacancy-card__meta"><span>Авиационная сборка</span><b>4–6 разряд</b></div><h3>Слесарь-сборщик летательных аппаратов</h3><p>Квалификационные требования уточняются при обращении.</p><a href="tel:+73812397528">Уточнить по вакансии ↗</a></article>
+          <article class="vacancy-card reveal" data-type="production"><span class="vacancy-card__number">13</span><div class="vacancy-card__meta"><span>Авиационная сборка</span><b>4–6 разряд</b></div><h3>Сборщик-клепальщик</h3><p>Квалификационные требования уточняются при обращении.</p><a href="tel:+73812397528">Уточнить по вакансии ↗</a></article>
+          <article class="vacancy-card reveal" data-type="production"><span class="vacancy-card__number">14</span><div class="vacancy-card__meta"><span>Испытания</span><b>4–6 разряд</b></div><h3>Слесарь-испытатель</h3><p>Квалификационные требования уточняются при обращении.</p><a href="tel:+73812397528">Уточнить по вакансии ↗</a></article>
+          <article class="vacancy-card reveal" data-type="production"><span class="vacancy-card__number">15</span><div class="vacancy-card__meta"><span>Электрооборудование</span><b>4–6 разряд</b></div><h3>Монтажник электрооборудования летательных аппаратов</h3><p>Квалификационные требования уточняются при обращении.</p><a href="tel:+73812397528">Уточнить по вакансии ↗</a></article>
+          <article class="vacancy-card reveal" data-type="production"><span class="vacancy-card__number">16</span><div class="vacancy-card__meta"><span>Покрытия</span><b>4–6 разряд</b></div><h3>Маляр (по металлу)</h3><p>Квалификационные требования уточняются при обращении.</p><a href="tel:+73812397528">Уточнить по вакансии ↗</a></article>
+          <article class="vacancy-card reveal" data-type="production"><span class="vacancy-card__number">17</span><div class="vacancy-card__meta"><span>Изоляционные работы</span><b>4–6 разряд</b></div><h3>Изолировщик</h3><p>Квалификационные требования уточняются при обращении.</p><a href="tel:+73812397528">Уточнить по вакансии ↗</a></article>
+          <article class="vacancy-card reveal" data-type="production"><span class="vacancy-card__number">18</span><div class="vacancy-card__meta"><span>Сварочное производство</span><b>4–6 разряд</b></div><h3>Электросварщик ручной сварки</h3><p>Квалификационные требования уточняются при обращении.</p><a href="tel:+73812397528">Уточнить по вакансии ↗</a></article>
+        </div>
+        <p class="vacancy-empty" data-vacancy-empty hidden>По вашему запросу вакансий не найдено.</p>
+      </div>
+    </section>
+
+    <section class="apply-section">
+      <div class="apply-section__brand"><img src="assets/polet-emblem.svg" alt="" width="78" height="78"><span>ПО «ПОЛЁТ»</span></div>
+      <div class="apply-section__copy reveal"><p class="kicker kicker--light">Отдел кадров</p><h2>Готовы сделать<br>следующий шаг?</h2><p>Позвоните специалистам отдела кадров и уточните актуальность позиции, требования, график и условия трудоустройства.</p><div class="apply-section__actions"><a class="button button--primary" href="tel:+73812397528">+7 (3812) 39-75-28 <span>↗</span></a><a class="button button--ghost" href="tel:+73812397101">+7 (3812) 39-71-01 <span>↗</span></a></div></div>
+      <div class="apply-section__address"><span>Приём кандидатов</span><b>г. Омск, ул. Б. Хмельницкого, 287<br>отдел кадров, кабинет 14А</b><a href="https://yandex.ru/maps/?text=%D0%9E%D0%BC%D1%81%D0%BA%2C%20%D1%83%D0%BB.%20%D0%91.%20%D0%A5%D0%BC%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D1%86%D0%BA%D0%BE%D0%B3%D0%BE%2C%20287" target="_blank" rel="noopener">Показать на карте ↗</a><small>Перед визитом рекомендуем уточнить время приёма по телефону.</small></div>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="brand" href="index.html"><img src="assets/polet-emblem.svg" alt="" width="46" height="46"><span class="brand__type"><b>ПО «ПОЛЁТ»</b><small>концепт цифрового образа</small></span></a><p>Учебный неофициальный концепт. Перечень вакансий перенесён с открытой страницы предприятия и может измениться. Актуальность необходимо подтверждать в отделе кадров.</p><div class="footer__links"><a href="index.html">Главная</a><a href="http://www.polyot.su/main.php?id=362" target="_blank" rel="noopener">Официальные вакансии ↗</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
