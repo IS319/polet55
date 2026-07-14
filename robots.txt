@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://is319.github.io/polet55/sitemap.xml
